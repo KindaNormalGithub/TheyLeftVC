@@ -8,9 +8,9 @@ intents = discord.Intents.default()
 intents.voice_states = True
 
 # Replace with the IDs of the people you want to track
-TARGET_USER_IDS = [704860044268929064, 983071003284488313, 928456244010827816, 975843751018774548, 932638221047844934]
-TARGET_VC_ID = 1130677811414310912  # Replace with the ID of the voice channel to track
-TARGET_TEXT_CHANNEL_ID = 1121848807387312190  # Replace with the ID of the text channel to send the message
+TARGET_USER_IDS = [704860044268929064]
+TARGET_VC_ID = 1186118770545147927  # Replace with the ID of the voice channel to track
+TARGET_TEXT_CHANNEL_ID = 1186118770545147926  # Replace with the ID of the text channel to send the message
 BOT_TOKEN = 'YOUR_BOT_TOKEN'  # Replace with your actual bot token
 
 client = discord.Client(intents=intents)
