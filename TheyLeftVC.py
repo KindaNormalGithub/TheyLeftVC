@@ -4,10 +4,10 @@ import asyncio
 intents = discord.Intents.default()
 intents.voice_states = True
 
-TARGET_USER_IDS = [704860044268929064]
-TARGET_VC_ID = 1186118770545147927
-TARGET_TEXT_CHANNEL_ID = 1186118770545147926
-BOT_TOKEN = 'YOUR_BOT_TOKEN'
+TARGET_USER_IDS = [704860044268929064] # Put UserID(s) Here
+TARGET_VC_ID = 1186118770545147927 # Put VC ID(s) Here
+TARGET_TEXT_CHANNEL_ID = 1186118770545147926 # Put Text Channel ID(s) Here
+BOT_TOKEN = 'YOUR_BOT_TOKEN' # Put *BOT* Token Here
 client = discord.Client(intents=intents)
 
 @client.event
